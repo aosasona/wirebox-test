@@ -9,7 +9,9 @@ your local machine. Then pick either [Laravel Sail](https://laravel.com/docs/8.x
 or [Laravel Homestead](https://laravel.com/docs/8.x/homestead), which might require you 
 to install additional sofware to get setup.
 
-Clone repo and initail configuration (ALL):
+#### Build (ALL)
+
+Clone repo and initail configuration:
 ```
 git clone git@bitbucket.org:wireboxteam/laravel-dev-test.git
 cd laravel-dev-test
