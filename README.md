@@ -57,6 +57,7 @@ DB_PASSWORD=secret
 Boot project:
 ```
 php vendor/bin/homestead make
+vagrant up
 vagrant ssh
 cd code/
 php artisan migrate
