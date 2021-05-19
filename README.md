@@ -1,4 +1,4 @@
-#Laravel Dev Test
+# Laravel Dev Test
 
 ## Development Area
 
@@ -37,8 +37,8 @@ vendor/bin/sail artisan migrate
 
 View project:
 
-* Project http://localhost
-* Mail Inbox http://localhost:8025/
+* Project [http://localhost](http://localhost)
+* Mail Inbox [http://localhost:8025/](http://localhost:8025/)
 
 #### Build with Homstead
 
@@ -62,5 +62,5 @@ php artisan migrate
 
 View project:
 
-* Project http://192.168.10.10/
-* Mail Inbox http://localhost:8025/
+* Project [http://192.168.10.10/](http://192.168.10.10/)
+* Mail Inbox [http://localhost:8025/](http://localhost:8025/)
