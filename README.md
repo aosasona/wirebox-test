@@ -13,7 +13,7 @@ to install additional sofware to get setup.
 
 Clone repo and initail configuration:
 ```
-git clone git@bitbucket.org:wireboxteam/laravel-dev-test.git
+git clone git@bitbucket.org:wireboxteam/laravel-dev-test-2021.git
 cd laravel-dev-test
 composer install
 cp .env.example .env
