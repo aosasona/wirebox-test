@@ -18,7 +18,7 @@ class CreateDictionaryTermsTable extends Migration
         Schema::create('dictionary_terms', function (Blueprint $table) {
             $table->id();
             $table->string('term');
-            $table->string('description');
+            $table->text('description');
             $table->integer('user_id')->unsigned();
             $table->timestamps();
         });

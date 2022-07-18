@@ -24,8 +24,8 @@ Route::get('/dashboard', function () {
 
 Route::get("/dictionary-terms", [DictionaryTermController::class, 'index'])->name('dictionary-terms-index');
 
-Route::get("/dictionary-terms/add", [DictionaryTermController::class, 'createView'])->name('dictionary-terms-add');
+Route::get("/dictionary-terms/add", [DictionaryTermController::class, 'create'])->name('dictionary-terms-add');
 
-Route::post("/dictionary-terms/add", [DictionaryTermController::class, 'create'])->name('dictionary-terms-add');
+Route::post("/dictionary-terms/add", [DictionaryTermController::class, 'store'])->name('dictionary-terms-add');
 
 require __DIR__ . '/auth.php';
