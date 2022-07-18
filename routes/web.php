@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DictionaryTermController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+Route::get("/dictionary-terms", [DictionaryTermController::class, 'index'])->name('dictionary-terms-index');
+
+Route::get("/dictionary-terms/add", [DictionaryTermController::class, 'createView'])->name('dictionary-terms-add');
+
+Route::post("/dictionary-terms/add", [DictionaryTermController::class, 'create'])->name('dictionary-terms-add');
+
+require __DIR__ . '/auth.php';
